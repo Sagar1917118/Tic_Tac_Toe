@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic_Tac_Toe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="subOverlay">
+                <img class="wonSymbolX" src="x.png" alt="">
+                <img class="wonSymbolO" src="0.png" alt="">
+                <span id="alertText">WON</span>
+            </div>
+        </div>
+        <div class="wrapper">
+
+            <div id="parentOptions" style="display:flex;gap:9px;align-items:center; padding:2px;border:0;font-size:14px">
+                <span class="changeSize" id="computer">Computer</span>
+                <div class="options"><div id="circle"></div></div>
+                <span id="two_user">Two_User</span>
+            </div>
+            <div class="topWrapper">
+            <div id="leftBox"><img id="corss" class="crossed" src="x.png" alt=""><span id="displayWonX">0</span></div>
+            <div id="rightBox"><img id="zero" class="zeroed" src="0.png" alt=""><span id="displayWonO">0</span></div>
+            </div>
+            <div class="bottomWrapper">
+              <div class="line" id="line1"></div>
+              <div class="line" id="line2"></div>
+              <div class="line" id="line3"></div>
+              <div class="line" id="line4"></div>
+              <div class="line" id="line5"></div>
+              <div class="line" id="line6"></div>
+              <div class="line" id="line7"></div>
+              <div class="line" id="line8"></div>
+              <!-- --- -->
+              <div class="square" id="box1"></div>
+              <div class="square" id="box2"></div>
+              <div class="square" id="box3"></div>
+              <div class="square" id="box4"></div>
+              <div class="square" id="box5"></div>
+              <div class="square" id="box6"></div>
+              <div class="square" id="box7"></div>
+              <div class="square" id="box8"></div>
+              <div class="square" id="box9"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index2.js"></script>
+</body>
+</html>
